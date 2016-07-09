@@ -131,6 +131,8 @@ public class TestSpringJDBC {
         Number number = insertActor.executeAndReturnKey(parameters);
         logger.debug("Add region {} ",number);
 
+
+
     }
 
 }
