@@ -130,6 +130,7 @@ public class TestSpringJDBC {
         parameters.put("regionName","Region of constructor");
         Number number = insertActor.executeAndReturnKey(parameters);
         logger.debug("Add region {} ",number);
+
     }
 
 }
