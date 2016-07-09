@@ -107,7 +107,7 @@ public class TestSpringJDBC {
         regionList.add(new Region("Region1"));
         regionList.add(new Region("Region2"));
         regionList.add(new Region("Region3"));
-        regionList.add(new Region("Region4"));
+        regionList.add(new Region("Region5"));
 
         int[] ints=jdbc.batchUpdate("INSERT INTO region.jc_region (regionName) values(?)", new BatchPreparedStatementSetter() {
             public void setValues(PreparedStatement preparedStatement, int i) throws SQLException {
